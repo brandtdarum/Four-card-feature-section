@@ -104,6 +104,22 @@ article {
     flex-direction: column;
 }
 
+#supervisor {
+    background: linear-gradient(0deg, white 98%, hsl(180, 62%, 55%) 2%);
+}
+
+#teamBuilder {
+    background: linear-gradient(0deg, white 98%, hsl(0, 78%, 62%) 2%);
+}
+
+#karma {
+    background: linear-gradient(0deg, white 98%, hsl(34, 97%, 64%) 2%);
+}
+
+#calculator {
+    background: linear-gradient(0deg, white 98%, hsl(212, 86%, 64%) 2%);
+}
+
 article > h3 {
     color: hsl(234, 12%, 34%);
     font-size: 1.3rem;
