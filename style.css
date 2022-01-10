@@ -1,0 +1,136 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9375rem;
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+}
+
+#showcase{
+    display: flex;
+    height: 100vh;
+    margin: 30px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+#showcase > span {
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+    margin-top: 60px
+}
+
+section > * {
+    flex: 1 1 0px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+article {
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    height: 230px;
+    box-shadow: 0 10px 25px 0px hsla(199, 21%, 59%, 0.349);
+
+    display: flex;
+    flex-direction: column;
+}
+
+article > h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.3rem;
+}
+
+article > span {
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5rem;
+}
+
+article > object {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 1023px) {
+    #showcase {
+        height: auto;
+    }
+    section {
+        flex-direction: column;
+        width: 100%;
+    }
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
