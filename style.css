@@ -46,6 +46,10 @@ The designs were created to the following widths:
     margin: 0;
 }
 
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
 #showcase{
     display: flex;
     height: 100vh;
